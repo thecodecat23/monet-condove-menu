@@ -1,0 +1,19 @@
+- name: Toast Classico
+  description: Toast dorato con prosciutto e formaggio.
+  price: "3.00"
+
+- name: Panino Caprese
+  description: Panino con mozzarella fresca, pomodoro e basilico.
+  price: "4.00"
+
+- name: Pinse Romana
+  description: Una versione leggera e croccante della pizza, con pomodoro e mozzarella.
+  price: "5.50"
+
+- name: Focaccia al Rosmarino
+  description: Focaccia tradizionale aromatizzata con rosmarino fresco.
+  price: "3.50"
+
+- name: Pizza Margherita
+  description: Pizza classica con mozzarella, pomodoro e basilico fresco.
+  price: "7.00"

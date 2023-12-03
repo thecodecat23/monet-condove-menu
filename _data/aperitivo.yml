@@ -1,0 +1,23 @@
+- name: Tagliere Classico
+  description: Selezione di formaggi e salumi, con olive e pane rustico.
+  price: "8.00"
+
+- name: Tagliere Vegetariano
+  description: Varietà di verdure grigliate, formaggi e pane carasau.
+  price: "7.50"
+
+- name: Prosecco DOC
+  description: Bicchiere di Prosecco, vino frizzante leggero e rinfrescante.
+  price: "4.00"
+
+- name: Vino della Casa
+  description: Scelta tra rosso o bianco, perfetto per accompagnare l'aperitivo.
+  price: "3.50"
+
+- name: Spritz Aperol
+  description: L'iconico cocktail italiano con Aperol, Prosecco e un tocco di soda.
+  price: "5.00"
+
+- name: Spritz Campari
+  description: Variante dell'Spritz con Campari per un gusto più amaricante.
+  price: "5.00"

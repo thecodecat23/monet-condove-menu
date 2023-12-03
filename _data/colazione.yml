@@ -1,0 +1,23 @@
+- name: Caffè
+  description: Un espresso italiano classico.
+  price: "1.50"
+
+- name: Caffè Americano
+  description: Caffè espresso diluito, per un sapore più leggero.
+  price: "2.00"
+
+- name: Caffè Macchiato
+  description: Espresso con una piccola quantità di latte montato.
+  price: "2.00"
+
+- name: Brioche alla Crema
+  description: Brioche soffice ripiena di crema pasticcera.
+  price: "2.50"
+
+- name: Brioche al Cioccolato
+  description: Brioche farcita con ricco cioccolato.
+  price: "2.50"
+
+- name: Brioche Integrale
+  description: Brioche preparata con farina integrale, opzione più salutare.
+  price: "2.50"

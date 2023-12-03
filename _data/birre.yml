@@ -1,0 +1,19 @@
+- name: Birra Lager Locale
+  description: Birra lager leggera e rinfrescante prodotta localmente.
+  price: "4.00"
+
+- name: Pilsner Italiana
+  description: Pilsner dorata e frizzante, con note floreali e un tocco di amarezza.
+  price: "4.50"
+
+- name: IPA Artigianale
+  description: India Pale Ale con un profilo aromatico intenso e luppolato.
+  price: "5.00"
+
+- name: Stout Irlandese
+  description: Birra scura e corposa con note di caffè e cioccolato.
+  price: "5.50"
+
+- name: Weiss Tedesca
+  description: Birra di frumento tradizionale, con note di banana e chiodi di garofano.
+  price: "4.50"
