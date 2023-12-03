@@ -9,14 +9,11 @@ layout: home
 ---
 
 ## Menu
-Benvenuti al Caffè Monet, Condove
 
-- [Benvenuti al Caffè Monet, Condove](#benvenuti-al-caffè-monet-condove)
-  - [Menu](#menu)
-    - [Colazione](#colazione)
-    - [Pranzo](#pranzo)
-    - [Aperitivo](#aperitivo)
-    - [Birre](#birre)
+- [Colazione](/colazione/)
+- [Pranzo](/pranzo/)
+- [Aperitivo](/aperitivo/)
+- [Birre](/birre/)
 
 ### Colazione
 {% for item in site.data.colazione %}
@@ -24,7 +21,7 @@ Benvenuti al Caffè Monet, Condove
 {% endfor %}
 
 ### Pranzo
-{% for item in site.data.panetteria_e_pizzeria %}
+{% for item in site.data.pranzo %}
 - **{{ item.name }}**: {{ item.description }} - €{{ item.price }}
 {% endfor %}
 
