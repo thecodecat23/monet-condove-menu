@@ -18,27 +18,73 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+############################
+# --- Required options --- #
+############################
+
+# Name of website
 title: Caffè Monet
+
+# Your name to show in the footer
+author: Davide Fiore
+
+# Infor
 email: info@caffemonet.com
 description: >- # this means to ignore newlines until "baseurl:"
   Caffè Monet, situato nel cuore di Condove, offre un'autentica esperienza culinaria italiana.
   Immerso in un panorama alpino mozzafiato e ricco di arte e tradizione, combiniamo una cucina squisita con un'atmosfera accogliente.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+###############################################
+# --- List of links in the navigation bar --- #
+###############################################
+
+navbar-links:
+  Colazione: "colazione"
+  Pranzo: "pranzo"
+  Aperitivo: "aperitivo"
+  Birre: "birre"
+  About: "about"
+
+################
+# --- Logo --- #
+################
+
+# Image to show in the navigation bar - works best with a square image
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/assets/img/logo-monet.jpg"
+
+#####################################
+# --- Footer social media links --- #
+#####################################
+
+# Select the social network links that you want to show in the footer.
+# You can change the order that they show up on the page by changing the order here.
+# Uncomment the links you want to show and add your information to each one.
+social-network-links:
+  email: "info@caffemonet.com"
+  facebook: caffemonet_
+  instagram: caffemonet_
+
+###########################
+# --- General options --- #
+###########################
+
+# Select which social network share links to show in posts
+share-links-active:
+  facebook: true
+  instagram: true
+
 # Build settings
-theme: minima
+remote_theme: daattali/beautiful-jekyll@6.0.1
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 include:
   - _pages
-
-minima:
-  skin: solarized-dark
-  social_links:
-    - { platform: instagram,  user_url: "https://www.instagram.com/caffemonet_/" }
-    - { platform: facebook, user_url: "https://www.facebook.com/p/caffemonet_" }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
