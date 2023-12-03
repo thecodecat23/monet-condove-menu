@@ -34,8 +34,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Caffè Monet, situato nel cuore di Condove, offre un'autentica esperienza culinaria italiana.
   Immerso in un panorama alpino mozzafiato e ricco di arte e tradizione, combiniamo una cucina squisita con un'atmosfera accogliente.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/monet-condove-menu/" # the subpath of your site, e.g. /blog
+url: "https://thecodecat23.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 ###############################################
 # --- List of links in the navigation bar --- #
