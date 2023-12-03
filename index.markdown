@@ -1,22 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 
 # Benvenuti al Caffè Monet, Condove
 ---
-
-## Menu
-Benvenuti al Caffè Monet, Condove
-
-- [Benvenuti al Caffè Monet, Condove](#benvenuti-al-caffè-monet-condove)
-  - [Menu](#menu)
-    - [Colazione](#colazione)
-    - [Pranzo](#pranzo)
-    - [Aperitivo](#aperitivo)
-    - [Birre](#birre)
 
 ### Colazione
 {% for item in site.data.colazione %}
@@ -24,7 +11,7 @@ Benvenuti al Caffè Monet, Condove
 {% endfor %}
 
 ### Pranzo
-{% for item in site.data.panetteria_e_pizzeria %}
+{% for item in site.data.pranzo %}
 - **{{ item.name }}**: {{ item.description }} - €{{ item.price }}
 {% endfor %}
 
