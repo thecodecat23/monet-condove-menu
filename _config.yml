@@ -18,16 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Caffè Monet
+email: info@caffemonet.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Caffè Monet, situato nel cuore di Condove, offre un'autentica esperienza culinaria italiana.
+  Immerso in un panorama alpino mozzafiato e ricco di arte e tradizione, combiniamo una cucina squisita con un'atmosfera accogliente.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 theme: minima
@@ -36,6 +33,12 @@ plugins:
 
 include:
   - _pages
+
+minima:
+  skin: solarized-dark
+  social_links:
+    - { platform: instagram,  user_url: "https://www.instagram.com/caffemonet_/" }
+    - { platform: facebook, user_url: "https://www.facebook.com/p/caffemonet_" }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
